@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    font-size: 32pt;
+    text-align: center;
+}
+
+tbody {
+    border-color: unset;
+
+}
+
+p {
+    font-size: 14pt;
+    text-align: justify;
+}
+
+header>table {
+    border: 0;
+    width: 100%;
+    background-color: rgba(63, 34, 19, 0.527);
+    align-self: center;
+    padding: 20;
+}
+
+header table img {
+    width: 60%;
+    margin-left: 30;
+    mix-blend-mode: color-burn;
+    cursor: pointer;
+}
+
+.logo {
+    width: 25%;
+}
+
+header table .login {
+    text-align: center;
+}
+
+.login {
+    width: 90%;
+    align-self: center;
+    padding: 20;
+}
+
+.login input {
+    border-radius: 5px;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.login button{
+    cursor: pointer;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul,
+.menu ol {
+    list-style: none;
+}
+
+.menu>ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.menu>ul li a {
+    display: block;
+    padding: 15px 30px 15px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    transition: all 0.3s;
+}
+
+.menu>ul li {
+    position: relative;
+}
+
+.menu li a:hover {
+    background: black;
+    color: blanchedalmond;
+    transition: all 0.3s;
+}
+
+.menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.menu li>ul li {
+    padding: 10px;
+    text-transform: none;
+    background: rgb(153, 128, 106);
+}
+
+.menu li:hover>ul {
+    display: block;
+    padding: 0;
+    border: 1px solid rgb(145, 118, 95);
+    z-index: 1000;
+}
+
+.mainPage{
+    margin:auto;
+    padding: 3% 5%;
+    table-layout: fixed;
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30;
+}

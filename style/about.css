@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');
+
+.presentation {
+    margin: 0;
+    background: url('/pres2.jpg') no-repeat;
+    width: 80%;
+    height: 500px;
+    margin-left: 150;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-color: #634e4ee3;
+}
+
+.presentation h1 {
+    font-family: 'Charmonman', cursive;
+    text-align: center;
+    margin-left: 50;
+    color: rgb(160, 154, 143);
+    font-size: 75;
+}
